@@ -17,3 +17,36 @@ const people = [
  let out =  people.filter(item => item.born > 1955)
 console.log(out)
 
+
+// Jafar Hussein egghead.io
+
+function getStockOver(stocks, minPrice){
+    return stocks.filter(function(stock){
+      return stock.price >= minPrice;
+    })  ;
+   
+ }
+   var expensiveStocks = getStockOver([
+     {symbol: "XFX", price: 240.22, volume: 23432},
+     {symbol: 'TNZ', price: 332.19, voume: 234},
+     {symbol: "JXJ", price: 120.22, volume: 5323}
+   ], 150.00);
+   
+   console.log(expensiveStocks)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
